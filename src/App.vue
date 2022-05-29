@@ -1,11 +1,9 @@
 <template>
-	<div>
-		Help..
-	</div>
+  <div>Help..</div>
 </template>
 <script lang="ts">
-	import { defineComponent } from "vue";
-	export default defineComponent({
-		name: "App",
-	});
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "App",
+});
 </script>
