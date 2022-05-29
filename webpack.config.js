@@ -19,13 +19,13 @@ const config = {
     filename: '[chunkhash].bundle.js',
     publicPath: '/',
   },
-  // resolve: {
-  //   extensions: ['.tsx', '.ts', '.js', '.vue'],
-  //   modules: [path.join(process.cwd(), 'src'), 'node_modules'],
-  //   alias: {
-  //     react: path.join(process.cwd(), 'node_modules', 'vue'),
-  //   },
-  // },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.vue'],
+    modules: [path.join(process.cwd(), 'src'), 'node_modules'],
+    alias: {
+      react: path.join(process.cwd(), 'node_modules', 'vue'),
+    },
+  },
   module: {
     rules: [
 			{
